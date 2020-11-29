@@ -1,0 +1,66 @@
+#container {
+    background-color: white;
+    border-color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: grid;
+    grid-template-areas: ". header header ."
+                         "nav sqrt  wart   blast "
+                         "nav  . . ."
+                         "footer footer footer footer" ;
+}
+
+#NavBar {
+    background-color: grey;
+    border-color: darkcyan;
+    border-width: 10px;
+    grid-area: nav
+    ;
+}
+
+#title {
+    text-align:center;
+    background-color: darkgoldenrod;
+    border-color: darkolivegreen;
+    border-width: 10px;
+    border-style: solid;
+    grid-area: header;
+}
+
+
+#squirtle {
+    background-color: darkgoldenrod;
+    border-color: darkolivegreen;
+    border-width: 10px;
+    border-style: solid;
+    grid-area: sqrt;
+    
+}
+
+#wartortle {
+    background-color: darkmagenta;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    grid-area: wart;
+    
+}
+
+#blastoise {
+    background-color: darkmagenta;
+    border-color: chocolate;
+    border-width: 10px;
+    border-style: solid;
+    grid-area: blast;
+    
+}
+
+#footer {
+    grid-area: footer;
+    background-color: darkgoldenrod;
+    border-color: grey;
+    border-width: 10px;
+    border-style: solid;
+
+}
